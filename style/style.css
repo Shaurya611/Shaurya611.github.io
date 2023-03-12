@@ -144,6 +144,7 @@ background-color: lightblue;
 .projects_section{
     background-color: lightblue;
     /* border-radius: 5px; */
+    padding: 0 0 50px 0;
 }
 .projects_section > div >h1{
     text-align: center;
@@ -156,6 +157,7 @@ background-color: lightblue;
     background-color: black;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border-radius: 15px;
+
 
     
 }
@@ -187,102 +189,81 @@ background-color: lightblue;
     display: inline-block;
     width: 100px;
 }
+.iconset{
+    margin-right:10px;
+}
 
 /* =========== Contact Section ============ */
-/* .contact-left{
-    flex-basis: 35%;
-}
-.contact-right{
-    flex-basis: 60%;
-}
-
-.contact-left p{
-    margin-top: 55px;
-}
-
-.contact-left p i{
-    color: #ff004f;
-    margin-right: 15px;
-    font-size: 25px;
-}
-
-.social-icons{
-    margin-top: 30px;
-
-}
-
-.social-icons a{
-    text-decoration: none;
-    font-size: 30px;
-    margin-right: 15px;
-    color: #ababab;
-    display: inline-block;
-    transition: transform 0.5s;
-}
-.social-icons a:hover{
-    color: #ff004f;
-    transform: translateY(-5px);
-}
-
-.btn{
-    display:block;
-    margin: 70px auto;
-    width: fit-content;
-    border: 1px solid #ff004f;
-    padding: 14px 50px;
-    border-radius: 6px;
-    text-decoration: none;
-    color: #fff;
-    transition: background 0.5s;
-
-}
-
-.btn:hover{
-    background: #ff004f;
-
-}
-
-.btn.btn2{
-  display: inline-block;
-  background: #ff004f;
-}
-
-.contact-right form{
-    width:100%;
-}
-
-form input, form textarea{
-    width:100%;
-    border:0;
-    outline:none;
-    background: #262626;
-    padding:12px;
-    margin:12px 0;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 6px;
-}
-
-form .btn2{
-    padding: 14px 60px;
-    font-size: 18px;
-    margin-top: 20px;
-    cursor: pointer;
-}
-
-.copyright{
-    width:100%;
-    text-align: center;
-    padding: 25px 0;
-    background: #262626;
-    font-weight: 300;
-    margin-top: 20px;
-    color: wheat;
-}
-
-.copyright i{
-     color: #ff004f;
-}
-.row{
+.contacts{
     display: flex;
-} */
+    width: 80%;
+    margin: 50px auto;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+     background-color:lightsteelblue; 
+     border-radius: 20px;
+
+}
+.contact_details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 2px solid yellowgreen; */
+    /* gap: 20px; */
+    width: 30%;
+    padding: 15px;
+}
+.message_boxes{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    gap: 20px;
+    padding: 15px;
+}
+.contact_details > h1{
+    text-align: center;
+}
+
+.contact_details > a{
+    text-decoration: none;
+    color: black;
+}
+
+.contact_details i{
+    font-size: 30px;
+}
+
+#name , #email , #subject{
+    padding: 10px;
+    border-radius: 10px;
+    /* background-color: gray; */
+    /* color: wheat; */
+}
+#submit{
+    background-color: teal;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 7px;
+    display: inline-block;
+    width: 100px;
+    border: none;
+}
+.footer{
+    width: 90%;
+   
+} 
+#desc{
+    text-align: center;
+   margin: 30px 0;
+   font-size: 25px;
+
+}
+hr{
+    width: 80%;
+    margin: auto;
+    height: 4px;
+    background-color:#000;
+
+}

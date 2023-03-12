@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="./style/style.css">
-    <script src="https://kit.fontawesome.com/70fd30be1e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
 </head>
 
 <body>
@@ -23,7 +25,11 @@
             <li><a href="#">Skills</a></li>
             <li><a href="#">Project</a></li>
             <li><a href="#">Contact Me</a></li>
-            <li><a download="Shaury-kumar-Resume" href="./Resume_dwld/Shaurya-Kumar-Resume.pdf">Resume</a></li>
+            <li><a onclick="window.open('https://drive.google.com/file/d/1TDyKPOfdAPKx7XoRuWllR0m0eQhOT2eH/view?usp=sharing');"
+                    target="_blank" download="Shaury-kumar-Resume"
+                    href="./Resume_dwld/Shaurya-Kumar-Resume.pdf">Resume</a></li>
+                    
+            <!-- <a href="Shruti-Gupta-Resume.pdf" download="Shruti-Gupta-Resume" target="_blank" onclick="window.open('https://drive.google.com/file/d/1a6JWMTzyKGeB4IbuHQ6BXpt2bPIQZhVl/view?usp=share_link');">Resume</a> -->
         </ul>
     </div>
 
@@ -47,7 +53,7 @@
 
     <div class="skills_section">
         <div class="subtitle">
-            <h1>Skills</h1>
+            <h1>Skills & Tools</h1>
         </div>
         <div class="skills_logos">
             <div><img src="pics/html5.png" alt=""></div>
@@ -56,9 +62,9 @@
             <div><img src="pics/linux.png" alt=""></div>
             <div><img src="pics/mysql-logo.png" alt=""></div>
             <div><img src="pics/git_new.png" alt=""></div>
-            <div><img src="pics/notion.png" alt=""></div>
+            <div><img src="pics/visual-studio-code-2019.png" alt=""></div>
             <div><img src="pics/revealjs.png" alt=""></div>
-          
+
         </div>
     </div>
     <div class="projects_section">
@@ -90,7 +96,8 @@
 
             <div class="project_details">
                 <h1>Shopping Cart</h1>
-                <p>It is a solo project developed by me. It has add to cart section, product section, searching section and also you can sort itesm.</p>
+                <p>It is a solo project developed by me. It has add to cart section, product section, searching section
+                    and you can also sort the products.</p>
                 <h3>Tech Stack</h3>
                 <div id="stacks">
                     <h3>HTM | CSS | JS | ReactJs</h3>
@@ -104,36 +111,27 @@
 
     <!-- ===============================Contact Section================================= -->
 
-    <!-- <div id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="contact-left">
-                    <h1 clss="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i>sethshaurya96@gmail.com</p>
-                    <p><i class="fa-duotone fa-phone-volume"></i>+91-7631074057</p>
-                    <div class="social-icons">
-                        <a href=""><i class="fa-brands fa-facebook"></i></a>
-                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-                        <a href=""><i class="fa-brands fa-github"></i></a>
-                    </div>
-                    <a href="/Resume_dwld/Shaurya-Kumar-Resume.pdf" download  class="btn btn2">Download CV</a>
-                </div>
-                <div class="contact-right">
-                    <form action="">
-                        <input type="text" name="Name" placeholder="enter your name here" required>
-                        <input type="text" name="email" placeholder="enter your email" required>
-                        <textarea name="Messege"  rows="6" placeholder="Drop your message here"></textarea>
-                        <button type="submit" class="btn btn2">Submit</button>
-                    </form>
-                </div>
-            </div>
+    <div class="contacts">
+        <div class="contact_details">
+            <h1>Contact Me</h1>
+            <p><i class="fa-solid fa-phone iconset"></i>+91-7631074057</p>
+            <a target="____blank" href="mailto: sethshaurya96@gmail.com"><i
+                    class="fa-solid fa-envelope iconset"></i>sethshaurya96@gmail.com</a>
+            <a target="__blank" href="https://github.com/Shaurya611"><i class="fa-brands fa-github iconset"></i>GitHub</a>
+            <a target="___blank" href="https://www.linkedin.com/in/shaurya611/"><i
+                    class="fa-brands fa-linkedin iconset"></i>LinkedIn</a>
         </div>
-        <div class="copyright">
-            <p>Copyright @Shaurya Kumar <i class="fa-solid fa-heart"></i> made using HTML CSS JavaScript</p>
+
+        <div class="message_boxes">
+            <input type="text" name="" id="name" placeholder="Name">
+            <input type="text" name="" id="email" placeholder="Email">
+            <textarea id="subject" cols="30" rows="10" placeholder="Subject"></textarea>
+            <input type="submit" id="submit">
         </div>
-    </div> -->
+    </div>
+  
+    <hr>
+    <p id="desc">⭐ Designed and build by Shaurya Kumar ⭐ </p>
 </body>
 
 <script src="./script/index.js"></script>
