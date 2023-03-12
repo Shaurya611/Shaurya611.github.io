@@ -3,10 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+
 }
-.main{
-    width:100%;
-}
+
 .sticky{
     background-color: white;
 }
@@ -16,7 +15,13 @@
     align-items: center;
     background-color: black;
     padding: 15px 0;
-    display: fixed;
+
+/* new */
+    position: sticky; 
+    top:0;
+    left: 0;
+    width: 100%;
+    z-index: 100000;
 }
 .Navbar_div >.logo{
    text-align: center;
@@ -58,27 +63,31 @@
     border-bottom: 1px solid white;
     
 }
+
+/* ======================== info========================== */
 .info{
-    margin: 50px 0;
+    /* margin: 50px 0; */
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 110px;
+    background-color: rgb(183, 236, 214);
+    padding: 50px 0;
 }
 
 .summary{
     width: 40%;
-
+background-color: lightblue;
     padding: 2rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border-radius: 10px;
 
 }
 .image{
-    width: 27%;
+    width: 30%;
     border-radius: 50%;
   
-    height: 450px;
+    height: 430px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .image > img{
@@ -96,3 +105,184 @@
     line-height: 1.4;
     font-size: 18px;
 }
+
+/* ================Skills_section===================== */
+
+.skills_section{
+    width: 100%;
+    background-color: palevioletred;
+    padding: 100px 0;
+}
+.subtitle{
+    text-align: center;
+    padding: 1.5rem 0;
+    /* border: 1px solid rebeccapurple; */
+}
+.skills_logos{
+   width: 50%;
+   margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    /* border: 2px solid red; */
+    
+  
+     
+}
+.skills_logos > div > img{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 5px;
+    background-color: #fff;
+
+}
+
+
+
+/*=========================== portfolio __project_____css========================= */
+
+.projects_section{
+    background-color: lightblue;
+    /* border-radius: 5px; */
+}
+.projects_section > div >h1{
+    text-align: center;
+    padding: 30px 0;
+}
+.project_card{
+    display: flex;
+    width: 65%;
+    margin: 50px auto;
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 15px;
+
+    
+}
+.img_part{
+    width: 45%;
+}
+.img_part > img{
+    width: 100%;
+    border-radius: 15px 0 0 15px;
+    height: 100%;
+}
+.project_details{
+    width: 40%;
+    /* border: 1px solid black; */
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding:0 50px;
+
+}
+.project_details a {
+    text-decoration: none;
+    color: wheat;
+    background-color: teal;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 7px;
+    display: inline-block;
+    width: 100px;
+}
+
+/* =========== Contact Section ============ */
+/* .contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+
+.contact-left p{
+    margin-top: 55px;
+}
+
+.contact-left p i{
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.social-icons{
+    margin-top: 30px;
+
+}
+
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+
+.btn{
+    display:block;
+    margin: 70px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+
+}
+
+.btn:hover{
+    background: #ff004f;
+
+}
+
+.btn.btn2{
+  display: inline-block;
+  background: #ff004f;
+}
+
+.contact-right form{
+    width:100%;
+}
+
+form input, form textarea{
+    width:100%;
+    border:0;
+    outline:none;
+    background: #262626;
+    padding:12px;
+    margin:12px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.copyright{
+    width:100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #262626;
+    font-weight: 300;
+    margin-top: 20px;
+    color: wheat;
+}
+
+.copyright i{
+     color: #ff004f;
+}
+.row{
+    display: flex;
+} */
