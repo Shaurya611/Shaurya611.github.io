@@ -130,7 +130,7 @@
 
 .skills_section {
   width: 100%;
-  background-color: palevioletred;
+  background-color: rgb(218, 167, 184);
   padding: 100px 0;
 }
 .subtitle {
@@ -166,6 +166,7 @@
   color: rgb(14, 13, 12);
   padding: 5px;
   font-weight: 700;
+  /* background-color: #fff; */
 }
 
 .skills_logos_soft{
@@ -190,6 +191,7 @@
     color: rgb(14, 13, 12);
     padding: 5px;
     font-weight: 700;
+    /* background-color: #fff; */
 }
 .skills_logos_soft > div > img{
     width: 100%;
@@ -215,6 +217,7 @@
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
   border-radius: 15px;
+  height: 350px;
 }
 .img_part {
   width: 45%;
