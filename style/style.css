@@ -15,7 +15,6 @@
   background-color: black;
   padding: 15px 0;
 
-  /* new */
   position: sticky;
   top: 0;
   left: 0;
@@ -68,7 +67,7 @@
 .puch_line_info{
   padding: 180px 150px;
   background: linear-gradient(to bottom right, #99ffcc 0%, #6666ff 100%)
-  /* border: 1px solid red; */
+
 
 }
 .puch_subtitle > h3 > span,
@@ -86,7 +85,7 @@
 
 /* ======================== About me========================== */
 .info {
-  /* margin: 50px 0; */
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -136,7 +135,7 @@
 .subtitle {
   text-align: center;
   padding: 1.5rem 0;
-  /* border: 1px solid rebeccapurple; */
+ 
 }
 
 .skills_logos {
@@ -166,7 +165,7 @@
   color: rgb(14, 13, 12);
   padding: 5px;
   font-weight: 700;
-  /* background-color: #fff; */
+
 }
 
 .skills_logos_soft{
@@ -191,7 +190,7 @@
     color: rgb(14, 13, 12);
     padding: 5px;
     font-weight: 700;
-    /* background-color: #fff; */
+  
 }
 .skills_logos_soft > div > img{
     width: 100%;
@@ -202,7 +201,7 @@
 
 .projects_section {
   background-color: lightblue;
-  /* border-radius: 5px; */
+
   padding: 0 0 50px 0;
 }
 .projects_section > div > h1 {
@@ -229,7 +228,7 @@
 }
 .project_details {
   width: 40%;
-  /* border: 1px solid black; */
+
   color: wheat;
   display: flex;
   flex-direction: column;
@@ -251,63 +250,58 @@
 }
 
 /* =========== Contact Section ============ */
-.contacts {
-  display: flex;
-  width: 80%;
-  margin: 50px auto;
-  /* border: 2px solid red; */
-  justify-content: space-between;
-  background-color: lightsteelblue;
-  border-radius: 20px;
-}
-.contact_details {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  /* border: 2px solid yellowgreen; */
-  /* gap: 20px; */
-  width: 30%;
-  padding: 15px;
-}
-.message_boxes {
-  /* border: 2px solid blue; */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 60%;
-  gap: 20px;
-  padding: 15px;
-}
-.contact_details > h1 {
+
+.contacts h1{
   text-align: center;
+  padding: 25px 0;
 }
+.contact_details{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  padding: 60px 40px 40px 15px;
+ 
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+  rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 10px;
+ 
 
-.contact_details > a {
+
+
+}
+.phn_email{
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction: column;
+ 
+  gap:50px;
+  
+
+}
+.phn_email a{
   text-decoration: none;
-  color: black;
+  font-size: 20px;
 }
+.linkdin_github{
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction: column;
 
-.contact_details i {
-  font-size: 30px;
+  gap: 50px;
 }
-
+.linkdin_github a {
+  text-decoration: none;
+  font-size: 20px;
+}
 #name,
 #email,
 #subject {
   padding: 10px;
   border-radius: 10px;
-  /* background-color: gray; */
-  /* color: wheat; */
+ 
 }
-#submit {
-  background-color: teal;
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 7px;
-  display: inline-block;
-  width: 100px;
-  border: none;
-}
+
 .footer {
   width: 90%;
 }
@@ -321,4 +315,5 @@ hr {
   margin: auto;
   height: 4px;
   background-color: #000;
+ margin-top: 25px;
 }
