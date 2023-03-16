@@ -1,0 +1,15 @@
+@media (min-width: 751px) and (max-width: 1002px) {
+    .info {
+        flex-wrap: wrap;
+    }
+
+    .summary {
+        width: 70%;
+    }
+}
+
+
+
+/* @media (min-width: 451px) and (max-width: 750px) {}
+
+@media (min-width: 200px) and (max-width: 450px) {} */
