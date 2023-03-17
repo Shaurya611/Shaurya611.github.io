@@ -1,15 +1,39 @@
 @media (min-width: 751px) and (max-width: 1002px) {
     .info {
         flex-wrap: wrap;
+        gap: 50px;
     }
 
     .summary {
         width: 70%;
     }
+    .image{
+        width: 50%;
+    }
+    .skills_logos{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .skills_logos_soft{
+        grid-template-columns: repeat(2,1fr);
+    
+    }
+    .project_details{
+        padding: 10px 0px 11px 20px;
+
+    }
+    .project_card{
+        width: 95%;
+    }
 }
 
 
 
-/* @media (min-width: 451px) and (max-width: 750px) {}
+ @media (min-width: 451px) and (max-width: 750px) {
+    /* .puch_line_info{
 
-@media (min-width: 200px) and (max-width: 450px) {} */
+    } */
+ }
+
+@media (min-width: 200px) and (max-width: 450px) {
+
+} 
