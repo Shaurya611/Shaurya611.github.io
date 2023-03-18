@@ -34,7 +34,7 @@
   .hamburger {
     display: block;
   }
-  .puch_line_info {
+  .punch_line_info {
     padding: 180px 100px;
   }
   .skills_logos {
@@ -76,12 +76,12 @@
 .skills_logos_soft{
   grid-template-columns: repeat(1,1fr);
 }
-.puch_line_info{
+.punch_line_info{
   padding: 40px 0;
   text-align: center;
 
 }
-.puch_subtitle>h1{
+.punch_subtitle>h1{
   font-size: 20px;
 }
 .summary{
@@ -130,8 +130,8 @@
 
 
 
-
+/* 
 @media (max-width: 320px) {
-  /* 1px - 320px */
+  1px - 320px
 
-}
+} */
