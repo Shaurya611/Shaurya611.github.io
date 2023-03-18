@@ -1,39 +1,70 @@
-@media (min-width: 751px) and (max-width: 1002px) {
-    .info {
-        flex-wrap: wrap;
-        gap: 50px;
-    }
+@media (max-width: 992px) {
+  /* 768px - 992px */
+  .info {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
 
-    .summary {
-        width: 70%;
-    }
-    .image{
-        width: 50%;
-    }
-    .skills_logos{
-        grid-template-columns: repeat(3,1fr);
-    }
-    .skills_logos_soft{
-        grid-template-columns: repeat(2,1fr);
-    
-    }
-    .project_details{
-        padding: 10px 0px 11px 20px;
-
-    }
-    .project_card{
-        width: 95%;
-    }
+  .summary {
+    width: 70%;
+  }
+  .image {
+    width: 50%;
+  }
+  .skills_logos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .skills_logos_soft {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .project_details {
+    padding: 10px 0px 11px 20px;
+  }
+  .project_card {
+    width: 70%;
+  }
 }
 
+@media (max-width: 767px) {
+  /* 576px - 767px */
 
+  .Navbar_div {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .puch_line_info {
+    padding: 180px 100px;
+  }
+  .skills_logos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .skills_logos_soft > div > p {
+    font-size: 16px;
+  }
+  .project_card {
+    width: 90%;
+  }
+  .img_part {
+    width: 60%;
+  }
+  .contact_details {
+    flex-direction: column;
+    padding: 30px 0;
+    width: 90%;
+  }
+  .phn_email,
+  .linkdin_github {
+    gap: 10px;
+    padding-left: 40px;
+  }
 
- @media (min-width: 451px) and (max-width: 750px) {
-    /* .puch_line_info{
+  .linkdin_github {
+    margin-top: 10px;
+  }
+}
 
-    } */
- }
-
-@media (min-width: 200px) and (max-width: 450px) {
-
-} 
+@media (max-width: 575px) {
+  /* 1px - 575px */
+}
