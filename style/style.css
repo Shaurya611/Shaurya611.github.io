@@ -152,6 +152,7 @@
   padding: 180px 150px;
   background: linear-gradient(to bottom right, #99ffcc 0%, #6666ff 100%);
   border: 2px solid red;
+  width: 100%;
 
 }
 

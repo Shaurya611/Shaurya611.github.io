@@ -66,5 +66,72 @@
 }
 
 @media (max-width: 575px) {
-  /* 1px - 575px */
+  /* 321px - 575px */
+.hamburger{
+  width: 100%;
+}
+.skills_logos{
+  grid-template-columns: repeat(1,1fr);
+}
+.skills_logos_soft{
+  grid-template-columns: repeat(1,1fr);
+}
+.puch_line_info{
+  padding: 40px 0;
+  text-align: center;
+
+}
+.puch_subtitle>h1{
+  font-size: 20px;
+}
+.summary{
+  width: 80%;
+}
+.image{
+  width: 80%;
+}
+.subtitle>h1{
+  font-size: 20px;
+}
+.projects_section>div>h1{
+  font-size: 20px;
+}
+.project_card {
+  width: 90%;
+  height: 350px;
+}
+.project_details >h1{
+  font-size: 20px;
+}
+.project_details > p{
+  font-size: 14px;
+}
+.project_details > h3{
+  font-size: 18px;
+}
+.stacks > h3{
+  font-size: 16px;
+}
+.contacts h1{
+  font-size: 20px;
+}
+.phn_email a ,.linkdin_github a {
+  font-size: 15px;
+}
+#desc{
+  font-size: 25px;
+}
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 320px) {
+  /* 1px - 320px */
+
 }
