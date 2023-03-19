@@ -89,7 +89,17 @@
   padding: 5px 8px;
   border-radius: 7px;
 }
-
+.hamburger >a{
+  text-decoration: none;
+  font-size: 18px;
+  background-color: #fff;
+  color: #000;
+  padding: 10px;
+  margin-left: 8px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  font-weight: 550;
+}
 .burger_icons {
   width: 100%;
   position: absolute;
@@ -181,6 +191,9 @@
   padding: 50px 0;
   /* border: 2px solid rgb(6, 236, 186); */
 }
+/* #resume_btn{
+  padding-left: 200px;
+} */
 
 .summary {
   width: 40%;
@@ -190,8 +203,24 @@
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
   border-radius: 10px;
 }
-
-.summary>h1 {
+.abt-resume{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12px;
+  align-items: center;
+}
+.abt-resume >a{
+  text-decoration: none;
+  color: wheat;
+  background-color: teal;
+  text-align: center;
+  padding: 5px 8px;
+  border-radius: 7px;
+  display: block;
+  /* width: 100px; */
+  /* margin: 8px 0; */
+}
+.abt-resume>h1 {
   color: chocolate;
   padding-bottom: 10px;
 }

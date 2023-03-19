@@ -11,6 +11,9 @@
   .image {
     width: 50%;
   }
+  .image {
+    height: 80%
+  }
   .skills_logos {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -90,6 +93,16 @@
 .image{
   width: 80%;
 }
+.abt-resume >a{
+ 
+  padding: 8px 12px;
+}
+.abt-resume{
+  gap: 5px;
+}
+.abt-resume>h1{
+  font-size: 20px;
+}
 .subtitle>h1{
   font-size: 20px;
 }
@@ -130,8 +143,10 @@
 
 
 
-/* 
 @media (max-width: 320px) {
-  1px - 320px
+  .abt-resume{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-} */
+} 
