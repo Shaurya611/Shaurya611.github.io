@@ -22,12 +22,12 @@
   /* z-index: 100000; */
 }
 
-.Navbar_div>.logo {
+.Navbar_div > .logo {
   text-align: center;
   position: relative;
 }
 
-.Navbar_div>.logo>a {
+.Navbar_div > .logo > a {
   text-decoration: none;
   color: #fff;
   font-size: 24px;
@@ -37,25 +37,23 @@
   /* font-size: 10px; */
 }
 
-.Navbar_div>.logo>a:hover {
+.Navbar_div > .logo > a:hover {
   border-bottom: 1px solid white;
 }
 
-.Navbar_div>ul {
+.Navbar_div > ul {
   position: relative;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 70%;
-
 }
 
-.Navbar_div>ul>li {
+.Navbar_div > ul > li {
   list-style: none;
-
 }
 
-.Navbar_div>ul>li>a {
+.Navbar_div > ul > li > a {
   text-decoration: none;
   color: #fff;
   font-size: 24px;
@@ -64,7 +62,7 @@
   transition: all 1s ease;
 }
 
-.Navbar_div>ul>li>a:hover {
+.Navbar_div > ul > li > a:hover {
   border-bottom: 1px solid white;
 }
 
@@ -81,7 +79,7 @@
   padding: 30px 0;
 }
 
-.hamburger>button {
+.hamburger > button {
   position: absolute;
   border: none;
   right: 10px;
@@ -89,7 +87,7 @@
   padding: 5px 8px;
   border-radius: 7px;
 }
-.hamburger >a{
+.hamburger > a {
   text-decoration: none;
   font-size: 18px;
   background-color: #fff;
@@ -109,10 +107,9 @@
   text-align: left;
   display: none;
   height: 300px;
-
 }
 
-.burger_icons>button {
+.burger_icons > button {
   position: absolute;
   border: none;
   right: 10px;
@@ -122,12 +119,11 @@
   z-index: 10;
 }
 
-.hamburger>button>i {
+.hamburger > button > i {
   font-size: 28px;
-
 }
 
-.burger_icons>ul {
+.burger_icons > ul {
   width: 100%;
   position: absolute;
   top: 0;
@@ -137,21 +133,21 @@
   margin: 50px 0;
 }
 
-.burger_icons>ul>li {
+.burger_icons > ul > li {
   padding: 6px 0;
   border: 1px solid #fff;
   width: 100%;
   margin: 8px 0;
 }
 
-.burger_icons>ul>li>a {
+.burger_icons > ul > li > a {
   text-decoration: none;
   color: #fff;
 }
 
 /* cross */
 
-.burger_icons>button>i {
+.burger_icons > button > i {
   font-size: 20px;
   color: #000;
 }
@@ -162,27 +158,24 @@
   background: linear-gradient(to bottom right, #99ffcc 0%, #6666ff 100%);
   /* border: 2px solid red; */
   width: 100%;
-
 }
 
-.punch_subtitle>h3>span,
-.punch_subtitle>h1>span {
+.punch_subtitle > h3 > span,
+.punch_subtitle > h1 > span {
   color: red;
-}n
-
-.punch_subtitle>h3,
-.punch_subtitle>h1 {
+}
+n .punch_subtitle > h3,
+.punch_subtitle > h1 {
   margin: 0 0 10px n0;
 }
 
-.punch_subtitle>h1 {
+.punch_subtitle > h1 {
   line-height: 1.5;
 }
 
-
 /* ======================== About me========================== */
 .info {
-
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -203,13 +196,13 @@
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
   border-radius: 10px;
 }
-.abt-resume{
+.abt-resume {
   display: flex;
   justify-content: space-between;
   padding-bottom: 12px;
   align-items: center;
 }
-.abt-resume >a{
+.abt-resume > a {
   text-decoration: none;
   color: wheat;
   background-color: teal;
@@ -220,27 +213,25 @@
   /* width: 100px; */
   /* margin: 8px 0; */
 }
-.abt-resume>h1 {
-  color: chocolate;
+.abt-resume > h1 {
+  color: darkblue;
   padding-bottom: 10px;
 }
 
 .image {
   width: 30%;
   border-radius: 50%;
-
-  height: 490px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border: 5px solid rgb(255, 249, 249);
 }
-
-.image>img {
+.image > img {
   width: 100%;
   border-radius: 50%;
   height: 100%;
+  background-color: #eedbdb;
 }
-
-.summary>p {
+.summary > p {
   line-height: 1.4;
   font-size: 18px;
 }
@@ -249,19 +240,17 @@
 
 .skills_section {
   width: 100%;
-  background-color: rgb(218, 167, 184);
+  background-color: rgb(230, 211, 217);
   padding: 30px 0 60px;
-  /* border: 2px solid black; */
 }
 
-.subtitle>h1 {
+.subtitle > h1 {
   margin: 15px 0;
 }
 
 .subtitle {
   text-align: center;
   padding: 1.5rem 0;
-
 }
 
 .skills_logos {
@@ -270,10 +259,9 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
-
 }
 
-.skills_logos>div {
+.skills_logos > div {
   /* border: 2px solid red; */
   padding: 10px;
   box-shadow: rgb(0, 0, 0, 0.25) 0px 14px 28px,
@@ -284,19 +272,18 @@
   flex-direction: column;
 }
 
-.skills_logos>div>img {
+.skills_logos > div > img {
   width: 100%;
   border-radius: 5px;
   background-color: #fff;
 }
 
-.skills_logos>div>p {
+.skills_logos > div > p {
   text-align: center;
   font-size: 18px;
   color: rgb(14, 13, 12);
   padding: 5px;
   font-weight: 700;
-
 }
 
 .skills_logos_soft {
@@ -307,7 +294,7 @@
   gap: 30px;
 }
 
-.skills_logos_soft>div {
+.skills_logos_soft > div {
   padding: 10px;
   box-shadow: rgb(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
@@ -318,16 +305,15 @@
   /* border: 2px solid rgb(10, 8, 10); */
 }
 
-.skills_logos_soft>div>p {
+.skills_logos_soft > div > p {
   text-align: center;
   font-size: 18px;
   color: rgb(14, 13, 12);
   padding: 5px;
   font-weight: 700;
-
 }
 
-.skills_logos_soft>div>img {
+.skills_logos_soft > div > img {
   width: 100%;
   border-radius: 5px;
   background-color: #fff;
@@ -339,11 +325,9 @@
   background-color: lightblue;
   padding: 57px 0;
   /* border: 2px solid red; */
-
-
 }
 
-.projects_section>div>h1 {
+.projects_section > div > h1 {
   text-align: center;
 }
 
@@ -363,7 +347,7 @@
   width: 45%;
 }
 
-.img_part>img {
+.img_part > img {
   width: 100%;
   border-radius: 15px 0 0 15px;
   height: 100%;
@@ -376,7 +360,6 @@
   flex-direction: column;
   justify-content: space-evenly;
   padding: 0 30px;
- 
 }
 
 .project_details > a {
@@ -390,8 +373,6 @@
   width: 100px;
   margin: 8px 0;
 }
-
-
 
 /* =========== Contact Section ============ */
 
@@ -412,34 +393,32 @@
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
   border-radius: 10px;
   background-color: black;
-
 }
 
-.phn_email,.linkdin_github {
+.phn_email,
+.linkdin_github {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
   gap: 50px;
 }
 
-.phn_email a ,.linkdin_github a {
+.phn_email a,
+.linkdin_github a {
   text-decoration: none;
   font-size: 20px;
-  color: #fff
+  color: #fff;
 }
 
 .iconset {
   margin-right: 10px;
-
 }
-
 
 #name,
 #email,
 #subject {
   padding: 10px;
   border-radius: 10px;
-
 }
 
 .footer {
